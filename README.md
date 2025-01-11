@@ -1,6 +1,10 @@
                                                                                                                       Eco Waste Management Short Explanation
 
          ==> How We Are Recycling Waste Like Bottles , Pappers and some other waste
+
+
+         #We-CAN
+         
 E-waste 
 Shredding: E-waste is shredded to separate materials
 Magnetic separation: Ferrous metals like iron and steel are separated using magnets
