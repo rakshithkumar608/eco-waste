@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(32, 30, 30);
+    text-align: center;
+    background-image: url(images/image.jpg); 
+     background-size: 1800PX;
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-top: 0;
+    width: auto;
+    padding-top: 100px;
+    transition: .4s;
+}
+
+header{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+      justify-content: flex-start;  
+     align-items: center;
+    /* background-color: #000; */
+    position: fixed; 
+    top: 0;
+    z-index: 1000;
+    transition: .4s;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+header .logo{
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+header .logo img{
+    height: 220px;
+    width: auto;
+    border-radius: 50%;
+    /* justify-content: left; */
+
+    
+}
+
+.text1{
+font-size: 2rem;
+font-family: sans;
+font-weight: bold;
+display: flex;
+align-items: center;
+margin-left: 30px;
+transition: .4s;
+}
+
+.text1 .small-text{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.text1 .big-text{
+    font-size: 6.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    header .logo img {
+        height: 100px; 
+    }
+
+    .text1 {
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .text1 .small-text {
+        font-size: 2rem; 
+    }
+
+    .text1 .big-text {
+        font-size: 3.5rem; 
+    }
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   width: 200%;
+}
+
+.login-container {
+    background: wheat;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+   height: 550px;
+   transition: .4s;
+    
+   
+}
+
+.login-container h2{
+    margin-bottom: 60px;
+    color: #333;
+    font-size: 24px;
+    transition: .4s;
+}
+
+.form-group{
+    margin-bottom: 45px;
+    text-align: left;
+    transition: .4s;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+    transition: .4s;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.login-btn{
+    background-color: #333;
+    color: #fff;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    transition: .4s;
+}
+
+.login-btn:hover{
+    background-color: blue;
+}
+
+.register-link{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a{
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.register-link a:hover{
+text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .login-container {
+        padding: 15px 20px;
+    }
+
+    .login-container h2 {
+        font-size: 20px;
+    }
+
+    .form-group input {
+        font-size: 12px;
+    }
+
+    .login-btn {
+        font-size: 14px;
+    }
+
+    .register-link {
+        font-size: 12px;
+    }
+}
+
+header{
+    position: fixed;
+     width: 100%;
+     right: 0;
+     top: 0;
+    padding: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   transition: all .50s ease;
+   transition: .4s;
+   
+  
+}
+
+.logo img{
+     width: 200px;
+     height: auto;
+  
+
+           
+}
+
+
+
+.navlist{
+    display: flex;
+   list-style-type: none;
+}
+
+.navlist a{
+     display: inline-block;
+     text-decoration: none;
+     list-style: none;
+     margin: 0 35px;
+     color: white;
+     font-size: var(--p-font);
+    transition:  all .6s ease;
+    transition: .4s;
+
+}
+
+.navlist a:hover{
+     color: rgb(0, 255, 26);
+     transform: translateY(-6px);
+}
+header .logo img {
+    height: 114px;
+    width: auto;
+    border-radius: 50%;
+    /* justify-content: left; */
+}

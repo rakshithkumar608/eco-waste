@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="booking.css"/>
+</head>
+<body>
+  
+  <!-- <header> 
+    <a href="#" class="logo">
+        <img src="Screenshot_2025-01-10_224926-removebg-preview.png" alt="logo">
+    </a>
+
+    <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="booking.html">Bookings</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <<div class="right-content">
+        <a href="login.html" class="nav-btn">Sign In</a>
+        <div class="bx-memu" id="memu-icons"><i class="ri-menu-3-line"></i></div>
+    </div> -->
+  </header> 
+
+  <!-- <header>
+    <h1>Service Booking</h1>
+  </header> -->
+  <div class="container">
+    <!-- Booking Form -->
+    <section class="form-section">
+      <h2>Book a Service</h2>
+      <form id="bookingForm"  action="connect.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="email">Phone No.:</label>
+        <input type="number" id="Phone" name="Phone" required>
+
+        <label for="Service">  Type of Service  :</label>
+        <input type="text" id="Add" name="Service" required>
+ 
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Preferred Time:</label> 
+        <input type="time" id="time" name="time" required>
+ 
+
+        <label for="Address">  Address :</label>
+        <input type="text" id="Add" name="Address" required>
+ 
+         
+        <button type="submit">Submit Booking</button>
+      </form>
+    </section>
+
+    <!-- Google Map -->
+   <div class="location-container">
+    <!-- <h2>Our Location</h2> -->
+    <p>Mangaluru-575003,all over india</p>
+    <iframe src="https://www.google.com/maps/embed?..." frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  
+   </div>
+
+  
+<script src="script.js"></script>
+</body>
+</html>

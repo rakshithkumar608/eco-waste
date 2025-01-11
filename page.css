@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Roboto", serif;
+}
+
+:root{
+    --bg-color: #0c0c0c;
+    --text-color: #fff;
+    --main-color: #ae8957;
+    --p-font: 1rem;
+    --big-font: 6.6rem;
+}
+
+body{
+    background-image: url(bg.png);
+    background:  var(--bg-color);
+    color: var(--text-color);
+}
+
+.container {
+    text-align: center;
+    padding: 20px; 
+    background-color: black; 
+}
+
+.text1 {
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #fff; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    line-height: 1.5; 
+    margin: 0; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease;
+} 
+
+gf
